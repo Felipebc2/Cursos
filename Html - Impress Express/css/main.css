@@ -1,0 +1,120 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #060512;
+}
+
+ul {
+    padding: 0px!important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #0D0B24;
+    height: 80px;
+}
+
+main {
+    margin: 0 auto;
+    width: 1650px;
+    position: relative;
+}
+
+.logo_text {
+    float: left;
+    padding: 7px;
+    width: 30%;
+}
+
+.menu ul li {
+    margin-left: 50px;
+    display: inline-block;
+    list-style: none;
+}
+
+.menu {
+    width: 35%;
+    float: right;
+    transform: translatey(30%);
+}
+
+.cart ul li{
+    margin-left: 50px;
+    display: inline-block;
+    list-style: none;
+}
+
+.cart {
+    width: 5%;
+    float: right;
+    transform: translatex(630%);
+}
+
+h1 {
+    color: #ffffff;
+    font-family: "Contrail One", sans-serif;
+    font-size: 130px;
+    font-weight: 400;
+    font-style: none;
+    letter-spacing: 3px;
+    line-height: 130px;
+}
+
+.big-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translatex(130px) translateY(210px);
+    width: 700px;
+    height: 400px;
+    /* border: 1px solid red; */
+}
+
+p1 {
+    color: #ffffff;
+    font-family: "Contrail One", sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: none;
+}
+
+.small-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translatex(130px) translateY(140px);
+    width: 520px;
+    height: 30px;
+    /* border: 1px solid red; */
+}
+
+.front-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    transform: translatex(450px) translateY(-280px);
+}
+
+.front-image img{
+    border-radius: 5%;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    transform: translatex(130px) translateY(-350px);
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #3A179D 10%, #3F2786 36%, #2B1F4D 100%);
+    width: 250px;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 25px;
+}
